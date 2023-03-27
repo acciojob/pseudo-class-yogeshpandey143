@@ -1,15 +1,11 @@
 /*  your css code here. If applicable */
-
-body{
-	display:flex;
+.device::before{
+	content: "Before Element";
+	color: red;
+	font-size: 20px;
 }
-
-.before-element {
- color :red;
+.device::after{
+	content: "After Element";
+	color: red;
+	font-size: 20px;
 }
-
-.after-element {
-	color:red;
-}
-
-
